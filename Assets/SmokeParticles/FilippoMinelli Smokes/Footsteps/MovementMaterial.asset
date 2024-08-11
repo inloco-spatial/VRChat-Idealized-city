@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e559564dd9fdb4458a036d3091a0d2de, type: 3}
+  m_Name: MovementMaterial
+  m_EditorClassIdentifier: 
+  splitRunAndWalk: 0
+  stepSound: {fileID: 0}
+  stepVFX: {fileID: 7751432417422906707, guid: 8587f93b9fd8ba44cb9b31e9bc6cade1, type: 3}
+  walkStepSound: {fileID: 0}
+  walkStepVFX: {fileID: 0}
+  runStepSound: {fileID: 0}
+  runStepVFX: {fileID: 0}
+  jumpSound: {fileID: 0}
+  jumpVFX: {fileID: 0}
+  landSound: {fileID: 0}
+  landVFX: {fileID: 0}
+  stopSound: {fileID: 0}
+  stopVFX: {fileID: 0}
+  takeoffSound: {fileID: 0}
+  takeoffVFX: {fileID: 0}
+  usePhysicsMaterial: 1
+  dynamicFriction: 1
+  staticFriction: 1
+  frictionCombine: 0
+  syncSFX: 1
+  syncVolume: 0.5
+  syncVFX: 1
+  limitSyncDistance: 1
+  maxSyncDistance: 50
