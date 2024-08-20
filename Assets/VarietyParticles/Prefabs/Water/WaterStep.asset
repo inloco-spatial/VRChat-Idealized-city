@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200812ad6af0b44a4bb1d843d31f7b29, type: 3}
+  m_Name: WaterStep
+  m_EditorClassIdentifier: 
+  _mixerGroup: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
+    type: 2}
+  _clips:
+  - {fileID: 8300000, guid: d1b112b0b9485f848851216998e51067, type: 3}
+  _volume: {x: 0.5, y: 0.5}
+  _pitch: {x: 1, y: 1.5}
+  _spatialBlend: 1
+  _reverbMix: 1
+  _rolloff: 1
+  _rollOffMin: 5
+  _rollOffMax: 200
