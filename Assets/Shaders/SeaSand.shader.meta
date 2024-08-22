@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 877d29147c34bd94a9ba56928bf2ee1f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _wavysand_normalogl: {fileID: 2800000, guid: f404f4f0c710a1d4299b4d1cd831426e,
+      type: 3}
+  - _wavysand_albedo: {fileID: 2800000, guid: 3592c98159547a54b95cab7601d6172d, type: 3}
+  - _wavysand_ao: {fileID: 2800000, guid: 067067a8bf7cd7e419d9d323748477a6, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -21,16 +21,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: IslandTrack
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 877d29147c34bd94a9ba56928bf2ee1f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _GLOSSYREFLECTIONS_OFF
   - _METALLICGLOSSMAP
   - _NORMALMAP
   - _PARALLAXMAP
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -104,6 +104,22 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wavysand_albedo:
+        m_Texture: {fileID: 2800000, guid: 3592c98159547a54b95cab7601d6172d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wavysand_ao:
+        m_Texture: {fileID: 2800000, guid: 067067a8bf7cd7e419d9d323748477a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wavysand_normalogl:
+        m_Texture: {fileID: 2800000, guid: f404f4f0c710a1d4299b4d1cd831426e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -118,7 +134,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO: 2.1
+    - _AO: 0.471
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -133,15 +149,22 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _Met: 0
+    - _Met1: 1
     - _Metallic: 0
     - _Mode: 0
     - _Mul: 2.41
+    - _NormalScale: 0.15
     - _OcclusionStrength: 1
     - _Parallax: 0.0087
     - _Pow: 9.18
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _SandTiling: 0.5
+    - _SandTiling1: 1
+    - _Shadow: 0.37
+    - _Smooth: 0
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -149,8 +172,12 @@ Material:
     - _Surface: 0
     - _UV: 100
     - _UVSec: 0
+    - _WaterDarkHeight: 8.27
+    - _WaterDarkMul: 2
+    - _WaterDarkPow: 2.88
     - _WorkflowMode: 1
     - _ZWrite: 1
+    - __dirty: 0
     - _add: 4.3
     - _colorAdd: 0.41
     - _pow: 0.46

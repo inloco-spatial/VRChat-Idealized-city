@@ -14748,7 +14748,7 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 3575802655849000161}
   MainScript: {fileID: 0}
   sound: {fileID: 4305139170012313285}
-  soundClip: {fileID: 8300000, guid: bd686cd4736820047b3f878963b80d11, type: 3}
+  soundClip: {fileID: 8300000, guid: 72ee4dc7ccff60e4d96c6823ab0ff264, type: 3}
   pS: {fileID: 2676016313442198097}
   colliderS: {fileID: 4305139169998839912}
   rendMesh: {fileID: 5426170669181021172}
@@ -14821,7 +14821,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -1007645819942920252, guid: 0461beb79fbfa4735867cac3f1f81cd2,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: bd686cd4736820047b3f878963b80d11, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 19cb0bdb13b50dc40866f1c5c5c0a2dd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
