@@ -25,7 +25,8 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _BUMPMODE_SINGLE
+  - _BUMPMODE_DUAL
+  - _DEPTHFOG_ON
   - _DISPLACEMENTMODE_WAVE
   - _DISTORTIONQUALITY_HIGH
   - _REFLECTIONTYPE_CUBEMAP
@@ -58,7 +59,7 @@ Material:
         m_Scale: {x: 100, y: 100}
         m_Offset: {x: 0, y: 0}
     - _BumpMapLarge:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 53b37497d99969441afb31a0e1743866, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CapsMask:
@@ -103,7 +104,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _FoamTex:
         m_Texture: {fileID: 2800000, guid: f3ed797cad96fec41b94d8626de3f1ab, type: 3}
-        m_Scale: {x: 20, y: 20}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Foam_Texture:
         m_Texture: {fileID: 0}
@@ -186,10 +187,10 @@ Material:
     - Vector1_7273530c27a34c9f8ee5723b84f96baa: 0.1
     - Vector1_dada42ebfac44076897b6de67441ba32: 1
     - _Amplitude: 2
-    - _BumpLargeStrength: 1
-    - _BumpMode: 0
+    - _BumpLargeStrength: 0.188
+    - _BumpMode: 1
     - _BumpScale: 1
-    - _BumpStrength: 0.229
+    - _BumpStrength: 0.035
     - _CapsIntensity: 2.57
     - _CapsSize: 1
     - _CapsSpeed: 1
@@ -200,7 +201,7 @@ Material:
     - _CausticsStart: 0
     - _Coastline: 1
     - _CoastlineSharpness: 3
-    - _CubeDist: 0.362
+    - _CubeDist: 0.217
     - _Cutoff: 0.5
     - _DepthEnd: 7.8
     - _DepthStart: -11.91
@@ -211,8 +212,8 @@ Material:
     - _Distortion: 0.2
     - _DistortionQuality: 0
     - _DstBlend: 10
-    - _EdgeFade: 49.32
-    - _EnableFog: 0
+    - _EdgeFade: 59.01
+    - _EnableFog: 1
     - _FOAM: 0
     - _FlowIntensity: 1
     - _FlowSpeed: 1
@@ -230,17 +231,17 @@ Material:
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Reflection: 0.19
+    - _Reflection: 1
     - _ReflectionNormals: 1
     - _ReflectionType: 3
-    - _RimPower: 0.35
+    - _RimPower: 0.574
     - _Scatter: 0
     - _ScreenDistortion: 2
     - _ShorelineSharpness: 0
     - _ShorelineWidth: 2.5
     - _Shoreline_Wave_Speed: 0.18
     - _Smoothing: 1
-    - _Smoothness: 1
+    - _Smoothness: 2
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 1
@@ -258,10 +259,10 @@ Material:
     - Color_36218622185947c6a5ae36366d8e21d8: {r: 1, g: 1, b: 1, a: 1}
     - Color_93e06cd551a5449091bcde90b46765a0: {r: 1, g: 1, b: 1, a: 1}
     - Vector2_4351ac2be1d74054986ec5378db9d578: {r: 50, g: 50, b: 0, a: 0}
-    - _Color: {r: 0.3019608, g: 0.69914615, b: 0.72156864, a: 0.2784314}
+    - _Color: {r: 0.275, g: 0.70810413, b: 0.73333335, a: 0.2784314}
     - _CubeColor: {r: 1, g: 1, b: 1, a: 1}
     - _DeepColor: {r: 0.3254902, g: 0.4666667, b: 0.76470596, a: 1}
-    - _DepthColor: {r: 0, g: 0.082724035, b: 0.23018861, a: 1}
+    - _DepthColor: {r: 0, g: 0.22007957, b: 0.6150943, a: 0.8392157}
     - _DisplacementSpeed: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlowSpeed: {r: 0.005, g: 0.00045, b: 0, a: 0}
@@ -269,9 +270,9 @@ Material:
     - _ScatterColor: {r: 0, g: 1, b: 1, a: 1}
     - _ScatterParams: {r: 1, g: 1, b: 2.03, a: 1}
     - _ShallowColor: {r: 0.28235295, g: 0.59607846, b: 0.4431373, a: 1}
-    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _Speeds: {r: 0.02, g: 0.02, b: 0.1, a: 0.1}
-    - _SpeedsLarge: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _SpeedsLarge: {r: -0.02, g: 0.02, b: 0, a: 0}
     - _WDirectionAB: {r: 0.3, g: 0.85, b: 0.85, a: 0.25}
     - _WDirectionCD: {r: 0.1, g: 0.9, b: 0.5, a: 0.5}
     - _WSpeed: {r: 1.2, g: 1.375, b: 1.1, a: 1.5}
