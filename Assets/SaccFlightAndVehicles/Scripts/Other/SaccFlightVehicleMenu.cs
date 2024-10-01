@@ -12,7 +12,7 @@ namespace SaccFlightAndVehicles
     {
         private SaccAirVehicle[] SaccAirVehicles;
         private SaccSeaVehicle[] SaccSeaVehicles;
-        private SaccGroundVehicle[] SaccGroundVehicles;
+        public SaccGroundVehicle[] SaccGroundVehicles;
         private SGV_GearBox[] SGVGearBoxs;
         private SAV_SyncScript[] SAVSyncScripts;
         public Slider JoystickSensitivitySlider;

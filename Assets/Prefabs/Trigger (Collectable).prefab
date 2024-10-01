@@ -14949,7 +14949,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5426170669181021172}
-  m_Mesh: {fileID: 3940141967692643330, guid: 68dc09ca9b1bbc54f8d221ce1da3dc0a, type: 3}
+  m_Mesh: {fileID: 6425110833861440498, guid: 68dc09ca9b1bbc54f8d221ce1da3dc0a, type: 3}
 --- !u!23 &3365140567758622201
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14970,7 +14970,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b21d40fe6e7ff4849b51866dd14084e3, type: 2}
+  - {fileID: 2100000, guid: e080f5fa08291fa40a56bf3ea842332e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15237,7 +15237,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0, b: 0.7111578, a: 1}
+      maxColor: {r: 0.017939806, g: 1, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}

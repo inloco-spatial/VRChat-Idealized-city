@@ -9,6 +9,6 @@ PhysicMaterial:
   m_Name: Water
   dynamicFriction: 500
   staticFriction: 500
-  bounciness: 0.5
+  bounciness: 0.9
   frictionCombine: 0
   bounceCombine: 0
