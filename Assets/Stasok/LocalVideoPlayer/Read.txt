@@ -1,0 +1,22 @@
+Локальный видеоплеер
+
+Не поддерживает Oculus Quest 2
+RemoveTriggerRenderers - удалить Renderers(кубы) при старте
+
+Использование:
+	1) Поставить префаб "StasokVideoPlayer"
+	2) Поставить префаб "Videoplayer Trigger (Material)"
+	3) Накинуть модель на префаб и:
+		Быстрый способ:
+			Указать материал "AVProVideoScreen" в модели (рекомендуется)
+		Если нужно передать видео в нужное поле материала: 
+			Добавить компонент "VRCAVProVideoScreen" и указать зависимости
+		
+	4) Передать в "rendererVideoRecipient" саму модель с материалом
+
+
+
+!!! Нельзя отключать объекты с этими компонентами, иначе видеоплеер потеряет стабильную работу:
+	VRCAVProVideoPlayer
+	VRCAVProVideoScreen
+	VRCAVProVideoSpeaker

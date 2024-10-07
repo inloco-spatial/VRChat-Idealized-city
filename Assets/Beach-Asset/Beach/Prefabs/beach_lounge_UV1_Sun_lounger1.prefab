@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2401583282310759641}
   - component: {fileID: 48694877527096580}
   - component: {fileID: 7078164870295121824}
+  - component: {fileID: 6257649631325347644}
   m_Layer: 0
   m_Name: beach_lounge_UV1_Sun_lounger1
   m_TagString: Untagged
@@ -83,3 +84,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6257649631325347644
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6942142762955822625}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8190611633383006487, guid: cce5a2a7bb5fd6e4680624d33a031d46, type: 3}

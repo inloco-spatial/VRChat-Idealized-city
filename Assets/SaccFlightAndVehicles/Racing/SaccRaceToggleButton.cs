@@ -10,8 +10,8 @@ namespace SaccFlightAndVehicles
     [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public class SaccRaceToggleButton : UdonSharpBehaviour
     {
-        [HideInInspector] public SaccRacingTrigger[] RacingTriggers;
-        [HideInInspector] public SaccRaceCourseAndScoreboard[] Races;
+        public SaccRacingTrigger[] RacingTriggers;
+         public SaccRaceCourseAndScoreboard[] Races;
         [Tooltip("Can be used to set a default course -1 = none")]
         public int CurrentCourseSelection = -1;
         [System.NonSerialized] public int LastCourseSelection = -1;
